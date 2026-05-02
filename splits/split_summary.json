@@ -1,0 +1,8 @@
+{
+  "dataset": "data\\f110_dataset_20220209",
+  "num_total": 1792,
+  "num_train": 1433,
+  "num_val": 359,
+  "train_fraction": 0.8,
+  "seed": 42
+}
