@@ -1,0 +1,79 @@
+# -------------------------
+# OS / editor files
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Environments
+# -------------------------
+.venv/
+venv/
+env/
+ENV/
+conda_env/
+*.egg-info/
+
+# -------------------------
+# Raw data: do not commit dataset
+# -------------------------
+data/raw/
+data/extracted/
+data/interim/
+f110_dataset_20220209/
+f110_dataset_20220209.zip
+*.zip
+
+# -------------------------
+# Model checkpoints
+# Use Google Drive / Git LFS if large
+# -------------------------
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+checkpoints/*.onnx
+
+# Keep a placeholder README in checkpoints/
+!checkpoints/README.md
+
+# -------------------------
+# Large experiment logs
+# -------------------------
+runs/
+wandb/
+tensorboard/
+lightning_logs/
+
+# -------------------------
+# Temporary outputs
+# -------------------------
+outputs/tmp/
+outputs/debug/
+*.log
+
+# -------------------------
+# Keep final report artifacts
+# -------------------------
+!results/
+!results/figures/
+!results/metrics/
+!reports/
