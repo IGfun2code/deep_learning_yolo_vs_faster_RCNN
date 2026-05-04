@@ -1,0 +1,2 @@
+score_threshold,AP50,precision,recall,mean_matched_iou,mean_inference_ms,num_predictions,num_ground_truth
+0.5,1.0000000000000007,0.9835616438356164,1.0,0.9422920957249187,129.00873811132064,365,359

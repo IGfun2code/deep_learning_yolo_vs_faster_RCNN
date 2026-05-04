@@ -1,0 +1,7 @@
+{
+  "num_total": 1792,
+  "num_train": 1433,
+  "num_val": 359,
+  "seed": 42,
+  "train_frac": 0.8
+}
