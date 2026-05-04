@@ -47,7 +47,6 @@ f110_dataset_20220209.zip
 # Model checkpoints
 # Use Google Drive / Git LFS if large
 # -------------------------
-checkpoints/*.pt
 checkpoints/*.pth
 checkpoints/*.ckpt
 checkpoints/*.onnx
