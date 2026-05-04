@@ -61,7 +61,7 @@ pip install torch torchvision
 You can check out the reproduce_results.ipynb file in notebooks to load the models and look at the result without training the models. This file should run the current models and produce the tables and figures.
 ---
 ### Get the data
-If you want to train the model yourself and try to replicate this project you will need to first download the data from the following github (The data is large so it is excluded from the repo):
+If you want to train the model yourself and try to replicate this project you will need to first download the data from the following github (or check it out under data/):
 ```text
 https://github.com/f1tenth-cmu/f1tenth_lab8/tree/main
 ```
@@ -87,7 +87,7 @@ notebooks/fasterrcnn_f110_project.ipynb
 This should give you the following YOLO model files:
 ```text
 notebooks/loss_[# of epochs].npy
-notebooks/model_[# of epochs].npy
+notebooks/model_[# of epochs].pt
 ```
 and the following files for the faster R-CNN:
 ```text
