@@ -34,12 +34,11 @@ conda_env/
 *.egg-info/
 
 # -------------------------
-# Raw data: do not commit dataset
+# Raw data: do not commit dataset zip file
 # -------------------------
 data/raw/
 data/extracted/
 data/interim/
-f110_dataset_20220209/
 f110_dataset_20220209.zip
 *.zip
 
